@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "steps",
+    plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
     monochrome = true
 )
 

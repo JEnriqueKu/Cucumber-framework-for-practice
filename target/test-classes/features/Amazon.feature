@@ -1,7 +1,7 @@
 Feature: Test Amazon functions
   Background:
     Given I navigate in Amazon page
-    When I make a search of a product <Hollow Knight>
+    When I make a search of a product Hollow Knight
 
   Scenario: As a test Engineer I want to validate a text in a search
     Then I can find a specific text in the page
